@@ -1,0 +1,5 @@
+@import 'abstract/colors';
+
+*::selection {
+  background: rgba($oc-cyan-6, 0.3);
+}

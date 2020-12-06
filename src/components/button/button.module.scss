@@ -1,0 +1,44 @@
+@import '../../scss/core';
+
+._root {
+  vertical-align: middle;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  svg {
+    margin-right: 0.5rem;
+  }
+}
+
+._outline {
+  background-color: transparent;
+  border: 1px solid var(--color);
+  border-radius: 0.25rem;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background-color: var(--color);
+    color: var(--contrast-color);
+  }
+}
+
+._dense {
+  font-size: 1rem;
+  background-color: var(--color);
+  border-radius: 0.25rem;
+}
+
+._black {
+  --color: #1b1f23;
+  --contrast-color: #fff;
+}
+
+@each $cl, $color in $oc-color-list {
+  ._#{$color} {
+    --color: map-get($cl, 5);
+    --contrast-color: #fff;
+  }
+}

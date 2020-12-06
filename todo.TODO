@@ -1,0 +1,30 @@
+Readme:
+  ☐ Adicionar instruções de configuração
+  ☐ Adicionar introdução
+  ☐ Adicionar gif's com exemplos
+
+Configurações:
+  ☐ Arquivo de configurações dentro do repositório
+    ☐ Pasta para salvar os arquivos (descrição do diretório)
+    ☐ Criar páginas github wiki automático (sim/não)
+    ☐ Salvamento automático (sim/não)
+
+Endpoints:
+  ☐ Arquivo postman
+
+Documentos:
+  ☐ Arquivo markdown
+  ☐ Salvar arquivo github
+  ☐ Salvar página wiki github
+  ☐ Salvamento automático
+  ☐ Editor markdown (live)
+  ☐ Detectar link de galeria (e redirecionar para a galeria)
+  ☐ Notificar usuários via github
+
+Galeria:
+  ☐ Arquivo json (titulo, descrição, link, id_galeria)
+  ☐ Upload direto no github
+
+Flow:
+  ☐ Arquivo json (https://github.com/MrBlenny/react-flow-chart)
+  ☐ Upload direto no github
